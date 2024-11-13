@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.send("Hello, World Tasks App node Test");
+  res.send("node depoly Test");
 });
 
 app.use(require("./routes/getRoutes"));
